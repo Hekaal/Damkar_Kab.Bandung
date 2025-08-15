@@ -24,7 +24,7 @@
               <gmd:address>
                 <gmd:CI_Address>
                   <gmd:deliveryPoint>
-                    <gco:CharacterString>[Jl. Raya Soreang Kopo KM. 17, Pamekaran, Soreang, Jawa Barat 40912.]</gco:CharacterString>
+                    <gco:CharacterString>[Jl. Raya Soreang Kopo KM. 17, Pamekaran, Soreang, Jawa Barat]</gco:CharacterString>
                   </gmd:deliveryPoint>
                   <gmd:city>
                     <gco:CharacterString>[Kabupaten Bandung]</gco:CharacterString>
