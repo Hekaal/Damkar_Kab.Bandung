@@ -3,7 +3,7 @@
       <gmd:citation>
         <gmd:CI_Citation>
           <gmd:title>
-            <gco:CharacterString>[IDENTIFIER_UNIK_DATASET]</gco:CharacterString>
+            <gco:CharacterString>[peta_adm_kab_bandung_2025]</gco:CharacterString>
           </gmd:title>
           <gmd:date>
             <gmd:CI_Date>
@@ -18,11 +18,11 @@
         </gmd:CI_Citation>
       </gmd:citation>
       <gmd:abstract>
-        <gco:CharacterString>Data spasial yang di produksi oleh [NAMA_INSTANSI_PRODUSENDATA]</gco:CharacterString>
+        <gco:CharacterString>Data spasial yang di produksi oleh [Dinas Pemadam Kebakaran dan Penyelamatan]</gco:CharacterString>
       </gmd:abstract>
       <gmd:purpose>
         <gco:CharacterString>Diperuntukan hanya untuk Aplikasi Web Geoportal</gco:CharacterString>
       </gmd:purpose>
       <gmd:credit>
-        <gco:CharacterString>[NAMA_PROVINSI/KABUPATEN/KOTA]</gco:CharacterString>
+        <gco:CharacterString>[Jawa Barat, Kabupaten Bandung]</gco:CharacterString>
       </gmd:credit>
