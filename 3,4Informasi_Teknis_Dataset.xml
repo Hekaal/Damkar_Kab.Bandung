@@ -44,7 +44,7 @@
         </gmd:EX_Extent>
       </gmd:extent>
       <gmd:supplementalInformation>
-        <gco:CharacterString>[ABSTRACT]</gco:CharacterString>
+        <gco:CharacterString>[Dataset ini merupakan kumpulan data statistik dan operasional terkait kebencanaan kebakaran di Kabupaten Bandung. Data ini berisi informasi mengenai jumlah dan penanganan insiden, ketersediaan infrastruktur pemadam, pembentukan relawan, standar proteksi bangunan, hingga program edukasi masyarakat untuk keperluan perencanaan dan evaluasi mitigasi bencana.]</gco:CharacterString>
       </gmd:supplementalInformation>
     </gmd:MD_DataIdentification>
   </gmd:identificationInfo>
