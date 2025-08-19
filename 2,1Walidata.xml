@@ -1,20 +1,20 @@
 <gmd:contact>
     <gmd:CI_ResponsibleParty>
       <gmd:individualName>
-        <gco:CharacterString>[Syahrul Ramdhani Putra Wibowo]</gco:CharacterString>
+        <gco:CharacterString>[H. TEGUH PURWAYADI S.STP., M.Si.]</gco:CharacterString>
       </gmd:individualName>
       <gmd:organisationName>
-        <gco:CharacterString>[Dinas Pemadam Kebakaran dan Penyelamatan]</gco:CharacterString>
+        <gco:CharacterString>[Dinas Komunikasi dan Informatika]</gco:CharacterString>
       </gmd:organisationName>
       <gmd:positionName>
-        <gco:CharacterString>[Tenaga Ahli Statistik]</gco:CharacterString>
+        <gco:CharacterString>[Kepala Dinas]</gco:CharacterString>
       </gmd:positionName>
       <gmd:contactInfo>
         <gmd:CI_Contact>
           <gmd:phone>
             <gmd:CI_Telephone>
               <gmd:voice>
-                <gco:CharacterString>[(022)5891113]</gco:CharacterString>
+                <gco:CharacterString>[(022)5891251]</gco:CharacterString>
               </gmd:voice>
               <gmd:facsimile>
                 <gco:CharacterString>[-]</gco:CharacterString>
@@ -24,7 +24,7 @@
           <gmd:address>
             <gmd:CI_Address>
               <gmd:deliveryPoint>
-                <gco:CharacterString>[Jl. Raya Soreang Kopo KM. 17, Pamekaran, Soreang, Jawa Barat]</gco:CharacterString>
+                <gco:CharacterString>[Jl. Raya Soreang Kopo KM. 17,Soreang, Jawa Barat]</gco:CharacterString>
               </gmd:deliveryPoint>
               <gmd:city>
                 <gco:CharacterString>[Kabupaten Bandung]</gco:CharacterString>
@@ -39,7 +39,7 @@
                 <gco:CharacterString>Indonesia</gco:CharacterString>
               </gmd:country>
               <gmd:electronicMailAddress>
-                <gco:CharacterString>[sunprogramdiskar@gmail.com]</gco:CharacterString>
+                <gco:CharacterString>[diskominfo@bandungkab.go.id]</gco:CharacterString>
               </gmd:electronicMailAddress>
             </gmd:CI_Address>
           </gmd:address>
