@@ -9,7 +9,7 @@
           <gmd:onLine>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>[URL_NAMA_DOMAIN]/geoserver/palapa/wms</gmd:URL>
+                <gmd:URL>[http://geoportalapalapa.bandungkab.go.id/]/geoserver/palapa/wms</gmd:URL>
               </gmd:linkage>
               <gmd:protocol>
                 <gco:CharacterString>OGC:WMS</gco:CharacterString>
