@@ -1,6 +1,6 @@
   <gmd:MD_Metadata xmlns:gml="<http://www.opengis.net/gml/>">
   <gmd:fileIdentifier>
-    <gco:CharacterString>[peta_adm_kab_bandung_2025]</gco:CharacterString>
+    <gco:CharacterString>[peta_kejadiankebakaran_kab_bandung_2024]</gco:CharacterString>
   </gmd:fileIdentifier>
   <gmd:language>
     <gmd:LanguageCode codeList="./resources/codeList.xml#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
