@@ -1,1 +1,659 @@
+#Informasi Dasar Metadata
+
+  <gmd:MD_Metadata xmlns:gml="<http://www.opengis.net/gml/>">
+  <gmd:fileIdentifier>
+    <gco:CharacterString>[peta_kejadiankebakaran_kab_bandung_2024]</gco:CharacterString>
+  </gmd:fileIdentifier>
+  <gmd:language>
+    <gmd:LanguageCode codeList="./resources/codeList.xml#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
+  </gmd:language>
+  <gmd:characterSet>
+    <gmd:MD_CharacterSetCode codeList="<http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode>" codeListValue="utf8" codeSpace="ISOTC211/19115">utf8</gmd:MD_CharacterSetCode>
+  </gmd:characterSet>
+  <gmd:parentIdentifier>
+    <gco:CharacterString></gco:CharacterString>
+  </gmd:parentIdentifier>
+  <gmd:hierarchyLevel>
+    <gmd:MD_ScopeCode codeList="<http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode>" codeListValue="dataset" codeSpace="ISOTC211/19115">dataset</gmd:MD_ScopeCode>
+  </gmd:hierarchyLevel>
+  <gmd:hierarchyLevelName>
+    <gco:CharacterString>dataset</gco:CharacterString>
+  </gmd:hierarchyLevelName>
+
+
+#Wali Data
+<gmd:contact>
+    <gmd:CI_ResponsibleParty>
+      <gmd:individualName>
+        <gco:CharacterString>[H. TEGUH PURWAYADI S.STP., M.Si.]</gco:CharacterString>
+      </gmd:individualName>
+      <gmd:organisationName>
+        <gco:CharacterString>[Dinas Komunikasi dan Informatika]</gco:CharacterString>
+      </gmd:organisationName>
+      <gmd:positionName>
+        <gco:CharacterString>[Kepala Dinas Komunikasi dan Informatika]</gco:CharacterString>
+      </gmd:positionName>
+      <gmd:contactInfo>
+        <gmd:CI_Contact>
+          <gmd:phone>
+            <gmd:CI_Telephone>
+              <gmd:voice>
+                <gco:CharacterString>[(022)5891251]</gco:CharacterString>
+              </gmd:voice>
+              <gmd:facsimile>
+                <gco:CharacterString>[(022) 5891251]</gco:CharacterString>
+              </gmd:facsimile>
+            </gmd:CI_Telephone>
+          </gmd:phone>
+          <gmd:address>
+            <gmd:CI_Address>
+              <gmd:deliveryPoint>
+                <gco:CharacterString>[Jl. Raya Soreang Kopo KM. 17, Soreang, Jawa Barat]</gco:CharacterString>
+              </gmd:deliveryPoint>
+              <gmd:city>
+                <gco:CharacterString>[Kabupaten Bandung]</gco:CharacterString>
+              </gmd:city>
+              <gmd:administrativeArea>
+                <gco:CharacterString>[Jawa Barat]</gco:CharacterString>
+              </gmd:administrativeArea>
+              <gmd:postalCode>
+                <gco:CharacterString>[40912]</gco:CharacterString>
+              </gmd:postalCode>
+              <gmd:country>
+                <gco:CharacterString>Indonesia</gco:CharacterString>
+              </gmd:country>
+              <gmd:electronicMailAddress>
+                <gco:CharacterString>[diskominfo@bandungkab.go.id]</gco:CharacterString>
+              </gmd:electronicMailAddress>
+            </gmd:CI_Address>
+          </gmd:address>
+          <gmd:hoursOfService>
+            <gco:CharacterString>07.30-15.00</gco:CharacterString>
+          </gmd:hoursOfService>
+          <gmd:contactInstructions>
+            <gco:CharacterString>Hubungi saat jam kerja</gco:CharacterString>
+          </gmd:contactInstructions>
+        </gmd:CI_Contact>
+      </gmd:contactInfo>
+      <gmd:role>
+        <gmd:CI_RoleCode codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="Walidata">Walidata</gmd:CI_RoleCode>
+      </gmd:role>
+    </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+
+
+#Produsen Data
+<gmd:contact>
+    <gmd:CI_ResponsibleParty>
+      <gmd:individualName>
+        <gco:CharacterString>[H. Iman Irianto, S.Sos., M.A.P]</gco:CharacterString>
+      </gmd:individualName>
+      <gmd:organisationName>
+        <gco:CharacterString>[Dinas Pemadam Kebakaran dan Penyelamatan]</gco:CharacterString>
+      </gmd:organisationName>
+      <gmd:positionName>
+        <gco:CharacterString>[Kepala Dinas Pemadam Kebakaran dan Penyelamatan]</gco:CharacterString>
+      </gmd:positionName>
+      <gmd:contactInfo>
+        <gmd:CI_Contact>
+          <gmd:phone>
+            <gmd:CI_Telephone>
+              <gmd:voice>
+                <gco:CharacterString>[082119119234]</gco:CharacterString>
+              </gmd:voice>
+            </gmd:CI_Telephone>
+          </gmd:phone>
+          <gmd:address>
+            <gmd:CI_Address>
+              <gmd:deliveryPoint>
+                <gco:CharacterString>[Jl. Raya Soreang KM.17, Desa Pamekaran, Kecamatan Soreang]</gco:CharacterString>
+              </gmd:deliveryPoint>
+              <gmd:city>
+                <gco:CharacterString>[Kabupaten Bandung]</gco:CharacterString>
+              </gmd:city>
+              <gmd:administrativeArea>
+                <gco:CharacterString>[Jawa Barat]</gco:CharacterString>
+              </gmd:administrativeArea>
+              <gmd:postalCode>
+                <gco:CharacterString>[40912]</gco:CharacterString>
+              </gmd:postalCode>
+              <gmd:country>
+                <gco:CharacterString>Indonesia</gco:CharacterString>
+              </gmd:country>
+              <gmd:electronicMailAddress>
+                <gco:CharacterString>[disdamkar@bandungkab.go.id]</gco:CharacterString>
+              </gmd:electronicMailAddress>
+            </gmd:CI_Address>
+          </gmd:address>
+          <gmd:hoursOfService>
+            <gco:CharacterString>07.30-15.00</gco:CharacterString>
+          </gmd:hoursOfService>
+          <gmd:contactInstructions>
+            <gco:CharacterString>Hubungi saat jam kerja dan hari kerja</gco:CharacterString>
+          </gmd:contactInstructions>
+        </gmd:CI_Contact>
+      </gmd:contactInfo>
+      <gmd:role>
+        <gmd:CI_RoleCode codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="Produsen Data">Produsen Data</gmd:CI_RoleCode>
+      </gmd:role>
+    </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+
+#Identifikasi Dataset
+
+<gmd:identificationInfo>
+    <gmd:MD_DataIdentification>
+      <gmd:citation>
+        <gmd:CI_Citation>
+          <gmd:title>
+            <gco:CharacterString>[peta_kejadiankebakaran_kab_bandung_2025]</gco:CharacterString>
+          </gmd:title>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2025-01-01</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="./resources/codeList.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+        </gmd:CI_Citation>
+      </gmd:citation>
+      <gmd:abstract>
+        <gco:CharacterString>Data spasial yang di produksi oleh [Dinas Pemadam Kebakaran dan Penyelamatan]</gco:CharacterString>
+      </gmd:abstract>
+      <gmd:purpose>
+        <gco:CharacterString>Diperuntukan hanya untuk Aplikasi Web Geoportal</gco:CharacterString>
+      </gmd:purpose>
+      <gmd:credit>
+        <gco:CharacterString>[Jawa Barat, Kabupaten Bandung]</gco:CharacterString>
+      </gmd:credit>
+
+
+#Point Kontak Produsen
+      <gmd:pointOfContact>
+        <gmd:CI_ResponsibleParty>
+          <gmd:individualName>
+            <gco:CharacterString>[H. Iman Irianto, S.Sos., M.A.P]</gco:CharacterString>
+          </gmd:individualName>
+          <gmd:organisationName>
+            <gco:CharacterString>[Dinas Pemadam Kebakaran dan Penyelamatan]</gco:CharacterString>
+          </gmd:organisationName>
+          <gmd:positionName>
+            <gco:CharacterString>[Kepala Dinas Pemadam Kebakaran dan Penyelamatan]</gco:CharacterString>
+          </gmd:positionName>
+          <gmd:contactInfo>
+            <gmd:CI_Contact>
+              <gmd:phone>
+                <gmd:CI_Telephone>
+                  <gmd:voice>
+                    <gco:CharacterString>[+6282119119234]</gco:CharacterString>
+                  </gmd:voice>
+                </gmd:CI_Telephone>
+              </gmd:phone>
+              <gmd:address>
+                <gmd:CI_Address>
+                  <gmd:deliveryPoint>
+                    <gco:CharacterString>[Jl. Raya Soreang KM.17, Desa Pamekaran, Kecamatan Soreang]</gco:CharacterString>
+                  </gmd:deliveryPoint>
+                  <gmd:city>
+                    <gco:CharacterString>[Kabupaten Bandung]</gco:CharacterString>
+                  </gmd:city>
+                  <gmd:administrativeArea>
+                    <gco:CharacterString>[Jawa Barat]</gco:CharacterString>
+                  </gmd:administrativeArea>
+                  <gmd:postalCode>
+                    <gco:CharacterString>[40912]</gco:CharacterString>
+                  </gmd:postalCode>
+                  <gmd:country>
+                    <gco:CharacterString>Indonesia</gco:CharacterString>
+                  </gmd:country>
+                  <gmd:electronicMailAddress>
+                    <gco:CharacterString>[disdamkar@bandungkab.go.id]</gco:CharacterString>
+                  </gmd:electronicMailAddress>
+                </gmd:CI_Address>
+              </gmd:address>
+              <gmd:hoursOfService>
+                <gco:CharacterString>07.30-16.00</gco:CharacterString>
+              </gmd:hoursOfService>
+              <gmd:contactInstructions>
+                <gco:CharacterString>Hubungi saat jam kerja dan hari kerja</gco:CharacterString>
+              </gmd:contactInstructions>
+            </gmd:CI_Contact>
+          </gmd:contactInfo>
+          <gmd:role>
+            <gmd:CI_RoleCode codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="Produsen Data">Produsen Data</gmd:CI_RoleCode>
+          </gmd:role>
+        </gmd:CI_ResponsibleParty>
+      </gmd:pointOfContact>
+
+#Point Kontak Walidata
+      <gmd:pointOfContact>
+        <gmd:CI_ResponsibleParty>
+          <gmd:individualName>
+            <gco:CharacterString>[ASEP ROCHMANSYAH S.Si., M.A.P.]</gco:CharacterString>
+          </gmd:individualName>
+          <gmd:organisationName>
+            <gco:CharacterString>[ Dinas Komunikasi dan Informatika]</gco:CharacterString>
+          </gmd:organisationName>
+          <gmd:positionName>
+            <gco:CharacterString>[Kepala Bidang Statistik]</gco:CharacterString>
+          </gmd:positionName>
+          <gmd:contactInfo>
+            <gmd:CI_Contact>
+              <gmd:phone>
+                <gmd:CI_Telephone>
+                  <gmd:voice>
+                    <gco:CharacterString>[081321718422]</gco:CharacterString>
+                  </gmd:voice>
+                  <gmd:facsimile>
+                    <gco:CharacterString>[(022) 5891251]</gco:CharacterString>
+                  </gmd:facsimile>
+                </gmd:CI_Telephone>
+              </gmd:phone>
+              <gmd:address>
+                <gmd:CI_Address>
+                  <gmd:deliveryPoint>
+                    <gco:CharacterString>[Jl. Raya Soreang Kopo KM. 17, Soreang, Jawa Barat]</gco:CharacterString>
+                  </gmd:deliveryPoint>
+                  <gmd:city>
+                    <gco:CharacterString>[Kabupaten Bandung]</gco:CharacterString>
+                  </gmd:city>
+                  <gmd:administrativeArea>
+                    <gco:CharacterString>[Jawa Barat]</gco:CharacterString>
+                  </gmd:administrativeArea>
+                  <gmd:postalCode>
+                    <gco:CharacterString>[40912]</gco:CharacterString>
+                  </gmd:postalCode>
+                  <gmd:country>
+                    <gco:CharacterString>Indonesia</gco:CharacterString>
+                  </gmd:country>
+                  <gmd:electronicMailAddress>
+                    <gco:CharacterString>[diskominfo@bandungkab.go.id]</gco:CharacterString>
+                  </gmd:electronicMailAddress>
+                </gmd:CI_Address>
+              </gmd:address>
+              <gmd:hoursOfService>
+                <gco:CharacterString>07.30-15.00</gco:CharacterString>
+              </gmd:hoursOfService>
+              <gmd:contactInstructions>
+                <gco:CharacterString>Hubungi saat jam kerja</gco:CharacterString>
+              </gmd:contactInstructions>
+            </gmd:CI_Contact>
+          </gmd:contactInfo>
+          <gmd:role>
+            <gmd:CI_RoleCode codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="Walidata">Walidata</gmd:CI_RoleCode>
+          </gmd:role>
+        </gmd:CI_ResponsibleParty>
+      </gmd:pointOfContact>
+
+#Kata Kunci
+<gmd:descriptiveKeywords>
+  <gmd:MD_Keywords>
+    <gmd:keyword>
+      <gco:CharacterString>Penanganan Kebakaran WMK</gco:CharacterString>
+    </gmd:keyword>
+    <gmd:keyword>
+      <gco:CharacterString>Indonesia</gco:CharacterString>
+    </gmd:keyword>
+    <gmd:keyword>
+      <gco:CharacterString>Kejadian Tertangani, Relawan, Pasukan Pemadam</gco:CharacterString>
+    </gmd:keyword>
+    <gmd:type>
+      <gmd:MD_KeywordTypeCode codeList="./resources/codeList.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+    </gmd:type>
+  </gmd:MD_Keywords>
+</gmd:descriptiveKeywords>
+
+<gmd:descriptiveKeywords>
+  <gmd:MD_Keywords>
+    <gmd:keyword>
+      <gco:CharacterString>Jumlah Kejadian Kebakaran</gco:CharacterString>
+    </gmd:keyword>
+    <gmd:keyword>
+      <gco:CharacterString>Indonesia</gco:CharacterString>
+    </gmd:keyword>
+    <gmd:keyword>
+      <gco:CharacterString>Statistik Insiden, Rekapitulasi Bencana</gco:CharacterString>
+    </gmd:keyword>
+    <gmd:type>
+      <gmd:MD_KeywordTypeCode codeList="./resources/codeList.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+    </gmd:type>
+  </gmd:MD_Keywords>
+</gmd:descriptiveKeywords>
+
+<gmd:descriptiveKeywords>
+  <gmd:MD_Keywords>
+    <gmd:keyword>
+      <gco:CharacterString>Bangunan Terproteksi</gco:CharacterString>
+    </gmd:keyword>
+    <gmd:keyword>
+      <gco:CharacterString>Indonesia</gco:CharacterString>
+    </gmd:keyword>
+    <gmd:keyword>
+      <gco:CharacterString>Proteksi Kebakaran, Keamanan Gedung, Jumlah</gco:CharacterString>
+    </gmd:keyword>
+    <gmd:type>
+      <gmd:MD_KeywordTypeCode codeList="./resources/codeList.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+    </gmd:type>
+  </gmd:MD_Keywords>
+</gmd:descriptiveKeywords>
+
+<gmd:descriptiveKeywords>
+  <gmd:MD_Keywords>
+    <gmd:keyword>
+      <gco:CharacterString>Kewajiban Proteksi Bangunan</gco:CharacterString>
+    </gmd:keyword>
+    <gmd:keyword>
+      <gco:CharacterString>Indonesia</gco:CharacterString>
+    </gmd:keyword>
+    <gmd:keyword>
+      <gco:CharacterString>Standar Keamanan, Total Gedung Wajib Proteksi</gco:CharacterString>
+    </gmd:keyword>
+    <gmd:type>
+      <gmd:MD_KeywordTypeCode codeList="./resources/codeList.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+    </gmd:type>
+  </gmd:MD_Keywords>
+</gmd:descriptiveKeywords>
+
+<gmd:descriptiveKeywords>
+  <gmd:MD_Keywords>
+    <gmd:keyword>
+      <gco:CharacterString>Relawan Kebakaran Desa</gco:CharacterString>
+    </gmd:keyword>
+    <gmd:keyword>
+      <gco:CharacterString>Indonesia</gco:CharacterString>
+    </gmd:keyword>
+    <gmd:keyword>
+      <gco:CharacterString>Jumlah Relawan, Pembentukan, Tingkat Desa</gco:CharacterString>
+    </gmd:keyword>
+    <gmd:type>
+      <gmd:MD_KeywordTypeCode codeList="./resources/codeList.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+    </gmd:type>
+  </gmd:MD_Keywords>
+</gmd:descriptiveKeywords>
+
+<gmd:descriptiveKeywords>
+  <gmd:MD_Keywords>
+    <gmd:keyword>
+      <gco:CharacterString>Waktu Tanggap Disdamkar</gco:CharacterString>
+    </gmd:keyword>
+    <gmd:keyword>
+      <gco:CharacterString>Indonesia</gco:CharacterString>
+    </gmd:keyword>
+    <gmd:keyword>
+      <gco:CharacterString>Respon 15 Menit, Penanganan Kebakaran, WMK</gco:CharacterString>
+    </gmd:keyword>
+    <gmd:type>
+      <gmd:MD_KeywordTypeCode codeList="./resources/codeList.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+    </gmd:type>
+  </gmd:MD_Keywords>
+</gmd:descriptiveKeywords>
+
+<gmd:descriptiveKeywords>
+  <gmd:MD_Keywords>
+    <gmd:keyword>
+      <gco:CharacterString>Penanganan Kebakaran Kabupaten Bandung</gco:CharacterString>
+    </gmd:keyword>
+    <gmd:keyword>
+      <gco:CharacterString>Indonesia</gco:CharacterString>
+    </gmd:keyword>
+    <gmd:keyword>
+      <gco:CharacterString>Jumlah Kejadian Tertangani, Statistik Wilayah</gco:CharacterString>
+    </gmd:keyword>
+    <gmd:type>
+      <gmd:MD_KeywordTypeCode codeList="./resources/codeList.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+    </gmd:type>
+  </gmd:MD_Keywords>
+</gmd:descriptiveKeywords>
+
+<gmd:descriptiveKeywords>
+  <gmd:MD_Keywords>
+    <gmd:keyword>
+      <gco:CharacterString>Pos Pemadam Kebakaran</gco:CharacterString>
+    </gmd:keyword>
+    <gmd:keyword>
+      <gco:CharacterString>Indonesia</gco:CharacterString>
+    </gmd:keyword>
+    <gmd:keyword>
+      <gco:CharacterString>Jumlah Pos, Infrastruktur Pemadam</gco:CharacterString>
+    </gmd:keyword>
+    <gmd:type>
+      <gmd:MD_KeywordTypeCode codeList="./resources/codeList.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+    </gmd:type>
+  </gmd:MD_Keywords>
+</gmd:descriptiveKeywords>
+
+<gmd:descriptiveKeywords>
+  <gmd:MD_Keywords>
+    <gmd:keyword>
+      <gco:CharacterString>Sebaran Pos Pemadam</gco:CharacterString>
+    </gmd:keyword>
+    <gmd:keyword>
+      <gco:CharacterString>Indonesia</gco:CharacterString>
+    </gmd:keyword>
+    <gmd:keyword>
+      <gco:CharacterString>Rasio Pos per Kecamatan, Peta Infrastruktur</gco:CharacterString>
+    </gmd:keyword>
+    <gmd:type>
+      <gmd:MD_KeywordTypeCode codeList="./resources/codeList.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+    </gmd:type>
+  </gmd:MD_Keywords>
+</gmd:descriptiveKeywords>
+
+<gmd:descriptiveKeywords>
+  <gmd:MD_Keywords>
+    <gmd:keyword>
+      <gco:CharacterString>Waktu Tanggap WMK</gco:CharacterString>
+    </gmd:keyword>
+    <gmd:keyword>
+      <gco:CharacterString>Indonesia</gco:CharacterString>
+    </gmd:keyword>
+    <gmd:keyword>
+      <gco:CharacterString>Respon Cepat, Penanganan 15 Menit</gco:CharacterString>
+    </gmd:keyword>
+    <gmd:type>
+      <gmd:MD_KeywordTypeCode codeList="./resources/codeList.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+    </gmd:type>
+  </gmd:MD_Keywords>
+</gmd:descriptiveKeywords>
+
+<gmd:descriptiveKeywords>
+  <gmd:MD_Keywords>
+    <gmd:keyword>
+      <gco:CharacterString>Kejadian Kebakaran WMK</gco:CharacterString>
+    </gmd:keyword>
+    <gmd:keyword>
+      <gco:CharacterString>Indonesia</gco:CharacterString>
+    </gmd:keyword>
+    <gmd:keyword>
+      <gco:CharacterString>Jumlah Insiden, Statistik Wilayah Manajemen Kebakaran</gco:CharacterString>
+    </gmd:keyword>
+    <gmd:type>
+      <gmd:MD_KeywordTypeCode codeList="./resources/codeList.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+    </gmd:type>
+  </gmd:MD_Keywords>
+</gmd:descriptiveKeywords>
+
+<gmd:descriptiveKeywords>
+  <gmd:MD_Keywords>
+    <gmd:keyword>
+      <gco:CharacterString>Sistem Komunikasi Informasi Kebakaran (SKIKP)</gco:CharacterString>
+    </gmd:keyword>
+    <gmd:keyword>
+      <gco:CharacterString>Indonesia</gco:CharacterString>
+    </gmd:keyword>
+    <gmd:keyword>
+      <gco:CharacterString>Kesiapan Desa, Data Real Time, Penyelamatan</gco:CharacterString>
+    </gmd:keyword>
+    <gmd:type>
+      <gmd:MD_KeywordTypeCode codeList="./resources/codeList.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+    </gmd:type>
+  </gmd:MD_Keywords>
+</gmd:descriptiveKeywords>
+
+<gmd:descriptiveKeywords>
+  <gmd:MD_Keywords>
+    <gmd:keyword>
+      <gco:CharacterString>Standar Proteksi Bangunan</gco:CharacterString>
+    </gmd:keyword>
+    <gmd:keyword>
+      <gco:CharacterString>Indonesia</gco:CharacterString>
+    </gmd:keyword>
+    <gmd:keyword>
+      <gco:CharacterString>Kepatuhan Standar, Keamanan Gedung, Peralatan Proteksi</gco:CharacterString>
+    </gmd:keyword>
+    <gmd:type>
+      <gmd:MD_KeywordTypeCode codeList="./resources/codeList.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+    </gmd:type>
+  </gmd:MD_Keywords>
+</gmd:descriptiveKeywords>
+
+<gmd:descriptiveKeywords>
+  <gmd:MD_Keywords>
+    <gmd:keyword>
+      <gco:CharacterString>Jumlah Bangunan dan Gedung</gco:CharacterString>
+    </gmd:keyword>
+    <gmd:keyword>
+      <gco:CharacterString>Indonesia</gco:CharacterString>
+    </gmd:keyword>
+    <gmd:keyword>
+      <gco:CharacterString>Data Properti, Inventarisasi Lingkungan</gco:CharacterString>
+    </gmd:keyword>
+    <gmd:type>
+      <gmd:MD_KeywordTypeCode codeList="./resources/codeList.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+    </gmd:type>
+  </gmd:MD_Keywords>
+</gmd:descriptiveKeywords>
+
+<gmd:descriptiveKeywords>
+  <gmd:MD_Keywords>
+    <gmd:keyword>
+      <gco:CharacterString>Sistem Ketahanan Kebakaran Lingkungan (SKKL)</gco:CharacterString>
+    </gmd:keyword>
+    <gmd:keyword>
+      <gco:CharacterString>Indonesia</gco:CharacterString>
+    </gmd:keyword>
+    <gmd:keyword>
+      <gco:CharacterString>Pembentukan Relawan, Ketahanan Masyarakat, Tingkat Desa</gco:CharacterString>
+    </gmd:keyword>
+    <gmd:type>
+      <gmd:MD_KeywordTypeCode codeList="./resources/codeList.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+    </gmd:type>
+  </gmd:MD_Keywords>
+</gmd:descriptiveKeywords>
+
+<gmd:descriptiveKeywords>
+  <gmd:MD_Keywords>
+    <gmd:keyword>
+      <gco:CharacterString>Sosialisasi Kebakaran</gco:CharacterString>
+    </gmd:keyword>
+    <gmd:keyword>
+      <gco:CharacterString>Indonesia</gco:CharacterString>
+    </gmd:keyword>
+    <gmd:keyword>
+      <gco:CharacterString>Edukasi Masyarakat, Pencegahan, Penanggulangan</gco:CharacterString>
+    </gmd:keyword>
+    <gmd:type>
+      <gmd:MD_KeywordTypeCode codeList="./resources/codeList.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+    </gmd:type>
+  </gmd:MD_Keywords>
+</gmd:descriptiveKeywords>
+
+<gmd:descriptiveKeywords>
+  <gmd:MD_Keywords>
+    <gmd:keyword>
+      <gco:CharacterString>Pembinaan Relawan Pemadam</gco:CharacterString>
+    </gmd:keyword>
+    <gmd:keyword>
+      <gco:CharacterString>Indonesia</gco:CharacterString>
+    </gmd:keyword>
+    <gmd:keyword>
+      <gco:CharacterString>SKKL, Kesiapsiagaan Desa, Relawan Aktif</gco:CharacterString>
+    </gmd:keyword>
+    <gmd:type>
+      <gmd:MD_KeywordTypeCode codeList="./resources/codeList.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+    </gmd:type>
+  </gmd:MD_Keywords>
+</gmd:descriptiveKeywords>
+
+#Informasi Teknsi Dataset
+      <gmd:spatialRepresentationType>
+        <gmd:MD_SpatialRepresentationTypeCode codeList="./resources/codeList.xml#MD_SpatialRepresentationTypeCode" codeListValue="vector">vector</gmd:MD_SpatialRepresentationTypeCode>
+      </gmd:spatialRepresentationType>
+      <gmd:spatialResolution>
+        <gmd:MD_Resolution>
+          <gmd:equivalentScale>
+            <gmd:MD_RepresentativeFraction>
+              <gmd:denominator>
+                <gco:Integer>250000</gco:Integer>
+              </gmd:denominator>
+            </gmd:MD_RepresentativeFraction>
+          </gmd:equivalentScale>
+        </gmd:MD_Resolution>
+      </gmd:spatialResolution>
+      <gmd:language>
+        <gco:CharacterString>Indonesia</gco:CharacterString>
+      </gmd:language>
+      <gmd:characterSet gco:nilReason="missing"></gmd:characterSet>
+      <gmd:topicCategory gco:nilReason="missing"></gmd:topicCategory>
+      <gmd:extent>
+        <gmd:EX_Extent>
+          <gmd:description gco:nilReason="missing"></gmd:description>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicBoundingBox>
+              <gmd:extentTypeCode>
+                <gco:Boolean>true</gco:Boolean>
+              </gmd:extentTypeCode>
+              <gmd:westBoundLongitude>
+                <gco:Decimal>94.76832054500005</gco:Decimal>
+              </gmd:westBoundLongitude>
+              <gmd:eastBoundLongitude>
+                <gco:Decimal>141.00007415200002</gco:Decimal>
+              </gmd:eastBoundLongitude>
+              <gmd:southBoundLatitude>
+                <gco:Decimal>-11.007615089999945</gco:Decimal>
+              </gmd:southBoundLatitude>
+              <gmd:northBoundLatitude>
+                <gco:Decimal>8.625482053000042</gco:Decimal>
+              </gmd:northBoundLatitude>
+            </gmd:EX_GeographicBoundingBox>
+          </gmd:geographicElement>
+          <gmd:temporalElement gco:nilReason="missing"></gmd:temporalElement>
+          <gmd:verticalElement gco:nilReason="missing"></gmd:verticalElement>
+        </gmd:EX_Extent>
+      </gmd:extent>
+      <gmd:supplementalInformation>
+        <gco:CharacterString>[Dataset ini merupakan kumpulan data statistik dan operasional terkait kebencanaan kebakaran di Kabupaten Bandung. Data ini berisi informasi mengenai jumlah dan penanganan insiden, ketersediaan infrastruktur pemadam, pembentukan relawan, standar proteksi bangunan, hingga program edukasi masyarakat untuk keperluan perencanaan dan evaluasi mitigasi bencana.]</gco:CharacterString>
+      </gmd:supplementalInformation>
+    </gmd:MD_DataIdentification>
+  </gmd:identificationInfo>
+
+#Distribusi Data
+<gmd:distributionInfo>
+    <gmd:MD_Distribution>
+      <gmd:distributionFormat gco:nilReason="missing"></gmd:distributionFormat>
+      <gmd:transferOptions>
+        <gmd:MD_DigitalTransferOptions>
+          <gmd:unitsOfDistribution>
+            <gco:CharacterString>Layers</gco:CharacterString>
+          </gmd:unitsOfDistribution>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>[https://portalpalapa.bandungkab.go.id/main/]/geoserver/palapa/wms</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>OGC:WMS</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>palapa:[peta_kejadiankebakaran_kab_bandung_2024]</gco:CharacterString>
+              </gmd:name>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+        </gmd:MD_DigitalTransferOptions>
+      </gmd:transferOptions>
+    </gmd:MD_Distribution>
+  </gmd:distributionInfo>
 
