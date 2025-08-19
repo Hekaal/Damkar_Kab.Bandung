@@ -41,7 +41,7 @@
             </gmd:CI_Address>
           </gmd:address>
           <gmd:hoursOfService>
-            <gco:CharacterString>07.30-16.00</gco:CharacterString>
+            <gco:CharacterString>07.30-15.00</gco:CharacterString>
           </gmd:hoursOfService>
           <gmd:contactInstructions>
             <gco:CharacterString>Hubungi saat jam kerja dan hari kerja</gco:CharacterString>
