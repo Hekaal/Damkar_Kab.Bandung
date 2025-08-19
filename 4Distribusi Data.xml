@@ -15,7 +15,7 @@
                 <gco:CharacterString>OGC:WMS</gco:CharacterString>
               </gmd:protocol>
               <gmd:name>
-                <gco:CharacterString>palapa:[peta_adm_kab_bandung_2025]</gco:CharacterString>
+                <gco:CharacterString>palapa:[peta_kejadiankebakaran_kab_bandung_2024]</gco:CharacterString>
               </gmd:name>
             </gmd:CI_OnlineResource>
           </gmd:onLine>
